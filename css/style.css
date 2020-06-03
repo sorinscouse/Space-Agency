@@ -82,4 +82,10 @@ p {
 }
 
 /*Sidebar End*/
+/*Navigation Start*/
+.navigation{
+    margin-left: 8rem;
+    position: fixed;
+}
+/*Navigation End*/
 /*Navigation Bar End*/
