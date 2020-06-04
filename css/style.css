@@ -348,6 +348,7 @@ p {
 
 .about-us-images{
     flex: 1 1;
+    position: relative;
 }
 
 .sub-heading{
@@ -385,5 +386,30 @@ p {
 
 .about-us-btn:hover .btn-arrow{
     margin-left: 1.5rem;
+}
+
+.image{
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
+    border-radius: .4rem;
+    border: .2rem solid #77add1;
+}
+
+.image-1{
+    transform: translate(-20%, -90%);
+}
+
+.image-2{
+    transform: translate(-70%, -70%);
+}
+
+.image-3{
+    transform: translate(-50%, -50%);
+}
+.image-4{
+    transform: translate(-30%, -30%);
 }
 /*About Us End*/
