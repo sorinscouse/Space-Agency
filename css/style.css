@@ -227,6 +227,11 @@ p {
     transform: rotate(405deg) translate(-5px, -6px);
     width: 2.5rem;
 }
-
 /*Navigation End*/
 /*Navigation Bar End*/
+
+/*Header Start*/
+.header{
+    margin-left: 8rem;
+}
+/*Header End*/
