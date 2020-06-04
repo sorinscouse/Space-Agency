@@ -515,3 +515,60 @@ p {
 }
 /*Expositions End*/
 
+/*Visitors Start*/
+.visitors{
+    margin-left: 8rem;
+    padding-bottom: 7rem;
+    background-color: #15141b;
+}
+
+.visitors-paragraph{
+    font-size: 1.8rem;
+    color: #ddd;
+    width: 50%;
+    margin: 2rem auto 8rem auto;
+    text-align: center;
+}
+
+.visitors-card-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.visitor-card{
+    background-color: #eee;
+    width: 60rem;
+    display: flex;
+}
+
+.visitor-image-wrapper{
+    margin: auto 0;
+}
+
+.visitor-image{
+    width: 20rem;
+    margin-left: -1.3rem;
+}
+
+.visitor-info{
+    padding: 0 2rem;
+}
+
+.visitor-fullname{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.visitor-paragraph-1{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #027ed1;
+}
+
+.visitor-paragraph-2{
+    font-size: 1.3rem;
+    font-style: italic;
+}
+/*Visitors End*/
+
