@@ -242,6 +242,7 @@ p {
 .brand {
     display: flex;
     cursor: pointer;
+    padding: 2rem;
 }
 
 .agency-heading {
@@ -334,19 +335,6 @@ p {
     color: #555;
 }
 
-.small-underline {
-    width: 9rem;
-    height: .1rem;
-    margin: 0 auto 1rem auto;
-    background-color: #027ed1;
-}
-
-.big-underline {
-    width: 20rem;
-    height: .1rem;
-    background-color: #027ed1;
-}
-
 .about-us-images {
     flex: 1 1;
     position: relative;
@@ -354,7 +342,7 @@ p {
 
 .sub-heading {
     font-size: 3.5rem;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: .2rem;
     color: #027ed1;
 }
@@ -414,6 +402,117 @@ p {
 .image-4 {
     transform: translate(-30%, -30%);
 }
-
 /*About Us End*/
+
+/*Expositions Start*/
+
+/*Common Header Start*/
+.common-header{
+    padding: 5rem;
+    text-align: center;
+    color: #027ed1;
+}
+
+.common-heading{
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #027ed1;
+}
+
+.big-underline {
+    width: 20rem;
+    height: .1rem;
+    margin: auto;
+    background-color: #027ed1;
+}
+/*Common Header End*/
+
+.expositions{
+    margin-left: 8rem;
+}
+
+.expositions-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exposition-card{
+    width: 60rem;
+    margin: 5rem;
+    background-color: #15141b;
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.exposition-img{
+    width: 100%;
+}
+
+.exposition-card-content{
+    color: #ddd;
+    padding: 2rem;
+}
+
+.exposition-card-heading{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.exposition-card-paragraph{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.exposition-price{
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: right;
+    margin: 0;
+}
+
+.exposition-card-btn{
+    width: 15rem;
+    padding: 1.5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #027ed1;
+    background-color: transparent;
+    border: .1rem solid #027ed1;
+    border-radius: 10rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.expositions-btn-wrapper{
+    text-align: center;
+}
+
+.expositions-btn{
+    width: 20rem;
+    padding: 1.5rem 1rem;
+    margin: 4rem 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #027ed1;
+    border: .2rem solid #027ed1;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, .2);
+    transition: all .2s;
+}
+
+.expositions-btn:hover{
+    color: #ddd;
+    background-color: #027ed1;
+}
+/*Expositions End*/
 
