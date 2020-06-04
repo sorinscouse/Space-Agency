@@ -244,7 +244,7 @@ p {
     cursor: pointer;
 }
 
-.hotel-heading {
+.agency-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3rem;
     font-weight: 400;
@@ -298,24 +298,25 @@ p {
 }
 
 @keyframes anim {
-    0%{
+    0% {
         opacity: 0;
     }
 
-    100%{
+    100% {
         opacity: 1;
     }
 }
+
 /*Header End*/
 
 /*About Us Start*/
-.about-us{
+.about-us {
     margin-left: 8rem;
     display: flex;
     background-color: #ddd;
 }
 
-.about-us-content{
+.about-us-content {
     flex: 0 1 50%;
     display: flex;
     flex-direction: column;
@@ -325,7 +326,7 @@ p {
     box-sizing: border-box;
 }
 
-.about-us-heading{
+.about-us-heading {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
     font-weight: 300;
@@ -333,32 +334,32 @@ p {
     color: #555;
 }
 
-.small-underline{
+.small-underline {
     width: 9rem;
     height: .1rem;
     margin: 0 auto 1rem auto;
     background-color: #027ed1;
 }
 
-.big-underline{
+.big-underline {
     width: 20rem;
     height: .1rem;
     background-color: #027ed1;
 }
 
-.about-us-images{
+.about-us-images {
     flex: 1 1;
     position: relative;
 }
 
-.sub-heading{
+.sub-heading {
     font-size: 3.5rem;
     font-weight: 400;
     letter-spacing: .2rem;
     color: #027ed1;
 }
 
-.about-us-paragraph{
+.about-us-paragraph {
     font-size: 1.6rem;
     font-style: italic;
     font-weight: 300;
@@ -366,7 +367,7 @@ p {
     margin-bottom: 5rem;
 }
 
-.about-us-btn{
+.about-us-btn {
     width: 15rem;
     padding: .7rem .5rem;
     font-family: 'Montserrat', sans-serif;
@@ -379,16 +380,16 @@ p {
     cursor: pointer;
 }
 
-.btn-arrow{
+.btn-arrow {
     margin-left: .5rem;
     transition: margin-left .4s;
 }
 
-.about-us-btn:hover .btn-arrow{
+.about-us-btn:hover .btn-arrow {
     margin-left: 1.5rem;
 }
 
-.image{
+.image {
     width: 32rem;
     position: absolute;
     top: 50%;
@@ -398,18 +399,21 @@ p {
     border: .2rem solid #77add1;
 }
 
-.image-1{
+.image-1 {
     transform: translate(-20%, -90%);
 }
 
-.image-2{
+.image-2 {
     transform: translate(-70%, -70%);
 }
 
-.image-3{
+.image-3 {
     transform: translate(-50%, -50%);
 }
-.image-4{
+
+.image-4 {
     transform: translate(-30%, -30%);
 }
+
 /*About Us End*/
+
