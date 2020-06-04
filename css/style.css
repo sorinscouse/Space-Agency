@@ -242,7 +242,6 @@ p {
 .brand {
     display: flex;
     cursor: pointer;
-    padding: 2rem;
 }
 
 .agency-heading {
