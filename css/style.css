@@ -769,6 +769,25 @@ body {
     }
 }
 
+@media (max-width: 640px){
+    .banner{
+        height: 25rem;
+    }
+
+    .banner-heading{
+        font-size: 4rem;
+    }
+
+    .banner-paragraph{
+        font-size: 2rem;
+    }
+
+    .banner-button {
+        width: 13rem;
+        font-size: 1.2rem;
+    }
+}
+
 @media (max-width: 500px){
     .navigation{
         width: 28rem;
